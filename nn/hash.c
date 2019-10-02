@@ -329,7 +329,7 @@ static uint32_t strhash(void* key)
 
 static void* strcp(void* key)
 {
-    return strdup(key);
+    return _strdup(key);
 }
 
 static int streq(void* key1, void* key2)

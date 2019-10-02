@@ -102,4 +102,7 @@ struct delaunay {
 void delaunay_circles_find(delaunay* d, point* p, int* n, int** out);
 int delaunay_xytoi(delaunay* d, point* p, int seed);
 
+delaunay* delaunay_build(int np, point points[], int ns, int segments[], int nh, double holes[]);
+void delaunay_destroy(delaunay* d);
+
 #endif

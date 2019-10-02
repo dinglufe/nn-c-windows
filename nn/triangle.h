@@ -249,6 +249,8 @@
 #define REAL double
 #endif /* not SINGLE */
 
+#define ANSI_DECLARATORS
+
 struct triangulateio {
   REAL *pointlist;                                               /* In / out */
   REAL *pointattributelist;                                      /* In / out */
